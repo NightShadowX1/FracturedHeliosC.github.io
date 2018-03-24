@@ -26,13 +26,13 @@ html, body {
 .dark-side,
 .light-side {
     height: 100%;
-    background-color: ##080515;
+    background-color: #080515;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     outline: 1px solid transparent;
 }
 .light-side {
-    background-color: ##080515;
+    background-color: #080515;
 }
 .dark-side,
 .dark-side:hover,
