@@ -26,13 +26,13 @@ html, body {
 .dark-side,
 .light-side {
     height: 100%;
-    background-color: #080515;
+    background-color: #080325;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     outline: 1px solid transparent;
 }
 .light-side {
-    background-color: #080515;
+    background-color: #ffffff;
 }
 .dark-side,
 .dark-side:hover,
@@ -45,7 +45,7 @@ html, body {
 .light-side:hover,
 .light-side:focus,
 .light-side-name {
-    color: #ffffff;
+    color: #080325;
     text-decoration: none;
 }
 
@@ -145,60 +145,7 @@ html, body {
     right: 2%;
 }
 
-.center {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    flex-direction: column;
-}
-.discord {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 15px;
-    text-align: center;
-}
 
-.discord img {
-    border-radius: 10%;
-    background: #7289DA;
-    padding: 8px;
-    width: 40px;
-}
-
-.expander {
-    display: inline-flex;
-    align-items: center;
-    background: #7289DA;
-    border-radius: 30px;
-    width: 56px;
-    transition: all 0.2s ease 0.2s;
-}
-
-.expander:hover {
-    width: 244px;
-    transition: all 0.2s;
-}
-
-.discord span {
-    color: white;
-    position: relative;
-    opacity: 0;
-    top: -30px;
-    transition: 0.2s;
-}
-
-.expander:hover span {
-    transition: 0.2s;
-    transition-delay: 0.2s;
-    top: 0px;
-    opacity: 1;
-    display: block;
-    font-weight: 500;
-}
 @media screen and (max-width: 600px) {
     .dark-side .logo,
     .light-side .logo,
